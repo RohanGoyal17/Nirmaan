@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+
+<html ><head>
+
+<title>Nirmaan Organization</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data/fav.png" type="image/gif" >
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="footer, links, icons" />
+<meta name="theme-color" content="black">
+
+<link rel="stylesheet" type="text/css" href="data/main.css">
+
+
+
+
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+
+}
+
+.yellow{
+	color: #ffb300;
+	display: inline-block;
+}
+
+.bgimg-1 {
+  background-image: url("1mob.JPG");
+  min-height: 100%;
+  webkit-filter: saturate(0%)contrast(120%)sepia(80%);
+  filter: saturate(0%)contrast(120%)sepia(80%);
+}
+
+.bgimg-2 {
+  background-image: url("3.jpg");
+  min-height: 100%;
+  webkit-filter: saturate(0%)contrast(110%)sepia(60%);
+  filter: saturate(0%)contrast(110%)sepia(60%);
+}
+
+.bgimg-3 {
+  background-image: url("2.png");
+  min-height: 100%;
+  webkit-filter: saturate(0%)sepia(60%);
+  filter: saturate(0%)contrast(110%)sepia(60%);
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  display: inline;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}	
+
+.myDiv{
+	display: none;
+}	
+
+.logo {
+	width: 50%;
+  pointer-events: none;
+  -webkit-touch-callout: none;
+}
+.gooey {
+  position: absolute;
+  opacity: 0.8;
+  top: 80%;
+  left: 50%;
+  width: 142px;
+  height: 40px;
+  margin: -20px 0 0 -71px;
+  background: #fff;
+  filter: contrast(20);
+}
+.gooey .dot {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 15px;
+  filter: blur(4px);
+  background: #000;
+  border-radius: 50%;
+  transform: translateX(0);
+  animation: dot 2.8s infinite;
+}
+.gooey .dots {
+  transform: translateX(0);
+  margin-top: 12px;
+  margin-left: 31px;
+  animation: dots 2.8s infinite;
+}
+.gooey .dots span {
+  display: block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin-left: 16px;
+  filter: blur(4px);
+  background: #000;
+  border-radius: 50%;
+}
+@-moz-keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@-webkit-keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@-o-keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@-moz-keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+@-webkit-keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+@-o-keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+@keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+
+</style>
+<style>
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #ffb300;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ffcc00;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+
+<style type="text/css">
+    @media only screen and (min-width: 1000px){
+    /* width */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .bgimg-1 {
+	  background-image: url("1.JPG");
+	}
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: white; 
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #aaaaaa;
+      border-radius: 4px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #888888; 
+    }
+
+.logo {
+	width: 15%;
+}
+}
+
+</style>
+
+
+</head>
+<body  class="demo" style="overflow: scroll; overflow-x: hidden; " onload="load()">
+
+		
+
+<div id="loader" class="bgimg-1" style=" background-image:url(); background-color: white; filter: none; transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;">
+  <div class="caption">
+  <span class="border"><img class="logo" src="load.jpg" >
+
+
+
+
+  </span>
+  </div>
+
+
+<div class="gooey" >
+  <span class="dot"></span>
+  <div class="dots">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+
+
+</div>
+
+
+
+<div class="bgimg-1 myDiv">
+  <div class="caption">
+  <span class="border"><img class="logo" src="nirmaan.png" ></span>
+  </div>
+</div>
+
+
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;" class="myDiv">
+  <h3 style="text-align:center;">ABOUT <div class="yellow"> US</div></h3>
+  <p>Nirmaan Organization is a registered NGO incepted by students of BITS Pilani in 2005 and works in the areas of Education, Community development, Women Empowerment, Employment generation, and Social Leadership. Since then, the organization has grown to work in several cities nationwide but the Pilani chapter still works with the people of villages around Pilani for their upliftment and operates from within the college campus.
+</div>
+
+<div class="bgimg-2 myDiv">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">"We have only one<p>Passion,</p>the rise of a great<p>Nation"</p></span>
+  </div>
+</div>
+
+<div style="position:relative;" class="myDiv">
+  <div style="color:#ddd;background-color:#000;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>more content</p>
+  </div>
+</div>
+
+<div class="bgimg-3 myDiv">
+  <div class="caption" style="height: 100%; background-color: black; opacity: 0.5;top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); ">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #ffffff;top: 50%;
+  -ms-transform: translateY(-50%)translateX(50%);
+  transform: translateY(-50%)translateX(50%); position: absolute; right: 50%;
+  ">"Be the change you want to see"</span>
+  </div>
+</div>
+
+<div style="position:relative;" class="myDiv">
+  <div style="color:#ddd;background-color:#000;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>
+  	<h3 style="text-align:center; color: white;">CONTACT <div class="yellow"> US</div></h3>
+ <br><br><br>
+  	<form action="">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="mail">Email</label>
+    <input type="text" id="mail" name="mail" placeholder="Your E-mail ID">
+
+    <label for="subject">Subject</label>
+    <select id="subject" name="subject">
+      <option value="Information">Information</option>
+      <option value="Collaborations">Collaborations</option>
+      <option value="csr">CSR</option>
+      <option value="MISC">miscellaneous</option>
+    </select>
+
+    <label for="content">Subject</label>
+    <textarea id="content" name="content" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+
+
+
+
+
+
+  </p>
+  </div>
+</div>
+
+<div class="bgimg-1 myDiv">
+  <div class="caption">
+  <span class="border end">Thanks for visiting :)</span>
+  </div>
+</div>
+
+
+<script src="data/main.js"></script>
+
+<script type="text/javascript">
+	var myVar;
+
+	function load(){
+		myVar = setTimeout(fadePage, 3000);
+	}
+
+	function fadePage(){
+		document.getElementById("loader").style.opacity = "0";
+		myVar = setTimeout(showPage, 300);
+	}
+
+	function showPage() {
+  	document.getElementById("loader").style.display = "none";
+  	var x = document.getElementsByClassName("myDiv");
+	var i;
+	for (i = 0; i < x.length; i++) {
+ 	 x[i].style.display = "block";
+		}
+	}
+
+</script>
+
+<script type="text/javascript">
+
+function disableselect(e) {
+    return false;
+}
+
+function reEnable() {
+    return true;
+}
+
+document.onselectstart = new Function("return false");
+
+if (window.sidebar) {
+    document.onmousedown = disableselect;
+    document.onclick = reEnable;
+}
+</script>
+</body>
+
+
+
+</html>
